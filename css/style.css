@@ -92,6 +92,9 @@
 .bg-img-4 {
   background-image: url(../img/background/hero-bg-4.jpg);
 }
+.bg-img-5 {
+  background-image: url(../img/background/hero-bg-5.jpg);
+}
 
 /* 1.3. glitch IMG BACKGROUND */
 .glitch-img {
@@ -449,14 +452,14 @@ h1.home-page-title {
 
 @media only screen and (max-width: 880px) {
   h1.home-page-title {
-    font-size: 85px;
+    font-size: 60px;
     margin: 9px auto 3px auto;
   }
 }
 
 @media only screen and (max-width: 640px) {
   h1.home-page-title {
-    font-size: 65px;
+    font-size: 45px;
     margin: 10px auto 5px auto;
   }
 }
@@ -468,8 +471,8 @@ h2.home-page-title {
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.65em;
-  color: #fff;
+  letter-spacing: 0.40em;
+  color:rgb(242, 83, 0);
   margin: 0 0 0 12px;
 }
 
@@ -482,7 +485,9 @@ h2.home-page-title {
 @media only screen and (max-width: 640px) {
   h2.home-page-title {
     margin: 0 0 0 9px;
+    letter-spacing: 0.15em;
   }
+  
 }
 
 h2.section-subheading {
@@ -556,7 +561,7 @@ h2.section-heading {
 
 @media only screen and (max-width: 640px) {
   h2.section-heading {
-    font-size: 55px;
+    font-size: 45px;
   }
 }
 
@@ -694,7 +699,7 @@ h2.section-heading.section-heading-contact {
 @media only screen and (max-width: 640px) {
   .logo {
     position: absolute;
-     background: url(../img/slogo.png) no-repeat;
+    background: url(../img/slogo.png) no-repeat;
   }
 }
 
@@ -3157,7 +3162,6 @@ textarea:focus:-moz-placeholder {
 .contact-info-description {
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
 }
 
 @media only screen and (max-width: 880px) {
@@ -3168,7 +3172,7 @@ textarea:focus:-moz-placeholder {
 
 .contact-info-description-img {
   display: block;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   color: #db0018;
   margin: 15px 0 15px 0;
@@ -3183,7 +3187,7 @@ textarea:focus:-moz-placeholder {
 }
 
 .contact-info-description-img.large {
-  font-size: 60px;
+
 }
 
 @media only screen and (max-width: 880px) {
@@ -3194,7 +3198,7 @@ textarea:focus:-moz-placeholder {
 }
 
 .contact-info-text {
-  font-size: 10px;
+  font-size: 15px;
   letter-spacing: 0.05em;
 }
 
@@ -3211,6 +3215,9 @@ textarea:focus:-moz-placeholder {
 .contact-info-text a,
 .contact-info-text a:hover {
   text-decoration: none;
+}
+.contact-info-text a{
+      font-size: 15px;
 }
 
 /* 30. hover effect */
@@ -4222,3 +4229,19 @@ source {
   -o-background-size: cover;
   background-size: cover;
 }
+
+@media (max-width: 991px) {
+  .mt-991-10 {
+    margin-top: 10px !important;
+  }
+  .mt-991-15 {
+    margin-top: 15px !important;
+  }
+  .mt-991-20 {
+    margin-top: 20px !important;
+  }
+  .mt-991-80 {
+    margin-top: 80px !important;
+  }
+}
+
