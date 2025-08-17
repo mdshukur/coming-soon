@@ -459,7 +459,7 @@ h1.home-page-title {
 
 @media only screen and (max-width: 640px) {
   h1.home-page-title {
-    font-size: 45px;
+    font-size: 40px;
     margin: 10px auto 5px auto;
   }
 }
@@ -485,7 +485,7 @@ h2.home-page-title {
 @media only screen and (max-width: 640px) {
   h2.home-page-title {
     margin: 0 0 0 9px;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.10em;
   }
   
 }
